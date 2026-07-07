@@ -1,0 +1,6 @@
+{
+	"type": "module",
+	"dependencies": {
+		"cac": "^7.0.0"
+	}
+}
