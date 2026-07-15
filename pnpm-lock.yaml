@@ -11,6 +11,9 @@ importers:
       cac:
         specifier: ^7.0.0
         version: 7.0.0
+      node-test-bootstrap:
+        specifier: ^1.2.1
+        version: 1.2.1
 
 packages:
 
@@ -18,6 +21,12 @@ packages:
     resolution: {integrity: sha512-tixWYgm5ZoOD+3g6UTea91eow5z6AAHaho3g0V9CNSNb45gM8SmflpAc+GRd1InC4AqN/07Unrgp56Y94N9hJQ==}
     engines: {node: '>=20.19.0'}
 
+  node-test-bootstrap@1.2.1:
+    resolution: {integrity: sha512-kI/7CvrgzUqzE4K/ynzPm+pyZVlcowu0aGvDba+y2ngLXtb2wC0Vwkbb2xZ01hXUQfnfhjWkU86YrmHiArPvgg==}
+    engines: {node: '>=22.20.0'}
+
 snapshots:
 
   cac@7.0.0: {}
+
+  node-test-bootstrap@1.2.1: {}
